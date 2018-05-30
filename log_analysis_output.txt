@@ -1,0 +1,14 @@
+connected successfully!
+
+Most popular articles of all the time are:
+('Candidate is jerk, alleges rival', 338647L)
+('Bears love berries, alleges bear', 253801L)
+('Bad things gone, say good people', 170098L)
+
+Most popular authors of all the time are:
+('Ursula La Multa', 507594L)
+('Rudolf von Treppenwitz', 423457L)
+('Anonymous Contributor', 170098L)
+
+The day with maximum number of errors is:
+(datetime.date(2016, 7, 17), Decimal('2.2626862468027260'))
