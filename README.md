@@ -1,4 +1,4 @@
-### In this project I worked on a real time application. I used its database to retrieve information that is needed by using some sql queries. I worked with status codes, which a server would record.
+#### In this project I worked on a real time application. I used its database to retrieve information that is needed by using some sql queries. I worked with status codes, which a server would record.
 #### In order to work with these I should be having some pre-requisites installed in our system.
           •	Python (version 2.7 or version 3.6)
           •	Virtual Box
