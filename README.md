@@ -13,26 +13,26 @@
                       •	vagrant ssh
 #### Then I will enter into vagrant environment and it looks like vagrant@vagrant......
 #### I  installed required packages like postgresql if not installed in our system with the      following command:
-                #### 	sudo apt-get update
-                #### 	sudo apt-get install postgresql postgresql-contrib
- Now I have enter into the user postgres with the following command:
+                	sudo apt-get update
+                	sudo apt-get install postgresql postgresql-contrib
+#### Now I have enter into the user postgres with the following command:
                 •	sudo –i –u postgres
                 •	psql
-Now that I have entered into the user postgres I can create my own user by the following command:
+#### Now that I have entered into the user postgres I can create my own user by the following command:
                 •	create user username with password ‘password’
-I altered the user inorder to get our own access by the following commands:
+#### I altered the user inorder to get our own access by the following commands:
                 •	alter user  username with Superuser
                 •	alter user  username with Createrole
                 •	alter user  username with Createdb
-Then I have created a database in that vagrant user.
+#### Then I have created a database in that vagrant user.
                 •	createdb databasename;
 Then I have  quit the postgres user and enter into vagrant user with the above mentioned command for postgres.
-Then I created another database named news in the user vagrant with the following command:
+#### Then I created another database named news in the user vagrant with the following command:
                 •	create database databasename;
-Then I entered into news database from vagrant databse by following command:
+#### Then I entered into news database from vagrant databse by following command:
                  •	\c news
 I downloaded the sql file and placed it in the folder I have created for vagrant.
-Now inorder to import the file into news database we have to first quit the database and enter into vagrant file path and execute the following command.
+#### Now inorder to import the file into news database we have to first quit the database and enter into vagrant file path and execute the following command.
                 •	sudo –d news –f  sqlfilename
 Now that the file has been imported into news database we can access its data by running the sql queries.
 
