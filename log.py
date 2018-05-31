@@ -33,7 +33,7 @@ def error_percentage():
     print("\n")
     print("The day with maximum number of errors is:")
     for i in range(0, len(c), 1):
-        print str(c[i][0]) + " - "+str(round(c[i][1], 2))+"% errors"
+        print str(c[i][0]) + " with "+str(round(c[i][1], 2))+"% errors"
 popular_articles()
 popular_authors()
 error_percentage()
