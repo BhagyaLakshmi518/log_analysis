@@ -4,6 +4,7 @@
           •	Python (version 2.7 or version 3.6)
           •	Virtual Box
           •	Vagrant
+	        psycopg2 (in order to run the pyhton file)
 
 ### Environment Setup:
 #### Steps for entering into vagrant environment:
