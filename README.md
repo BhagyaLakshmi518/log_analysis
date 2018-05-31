@@ -4,6 +4,8 @@
           •	Python (version 2.7 or version 3.6)
           •	Virtual Box
           •	Vagrant
+
+### Environment Setup:
 #### Steps for entering into vagrant environment:
   	I installed virtual box for creating a new environment.
   	I installed vagrant.
@@ -12,7 +14,6 @@
                       •	vagrant init ubuntu/trusty64
                       •	vagrant up
                       •	vagrant ssh
-### Environment Setup:
 #### Then I will enter into vagrant environment and it looks like vagrant@vagrant......
 #### I  installed required packages like postgresql if not installed in our system with the      following command:
                 	sudo apt-get update
