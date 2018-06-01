@@ -56,7 +56,7 @@ Views related to most popular articles:
 #### To create view_error:
     create view view_error as select date(time),count(status) as errors from log where status like ‘404 NOT FOUND’ group by date(time) order by errors desc;
 #### To create combined_view:
-    create view combined_view as select view_total.date,errors,total from view_total left join view_error on                  view_total.date=view_error.date group by view_total.date,errors,total order by errors desc;
+    create view combined_view as select view_total.date,errors,total from view_total left join view_error on       view_total.date=view_error.date group by view_total.date,errors,total order by errors desc;
 #### To create the view error_percent:
     create view error_percent as select date,(errors*100.00/total) as error_cent from combined_view group by date,error_cent order by       error_cent desc;
 	After creating the above views we have to the python file in which we have written the main queries to get the solution .
